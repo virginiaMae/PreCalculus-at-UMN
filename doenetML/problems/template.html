@@ -1,0 +1,32 @@
+<!doctype html>
+<html>
+    <script
+        type="module"
+        src="https://cdn.jsdelivr.net/npm/@doenet/standalone@0.7.0-alpha39/doenet-standalone.js"
+    ></script>
+    <link
+        rel="stylesheet"
+        href="https://cdn.jsdelivr.net/npm/@doenet/standalone@0.7.0-alpha39/style.css"
+    />
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            document
+                .querySelectorAll(".doenetml-viewer")
+                .forEach((container) => {
+                    renderDoenetViewerToContainer(container);
+                });
+        });
+    </script>
+    <body>
+ <div style="display: flex; justify-content: center;"> 
+         <div class="doenetml-viewer" style="width: 850px">
+              <script type="text/doenetml">
+              
+
+<DOENET STUFF GOES HERE>
+
+                </script>
+            </div>
+    </div>
+    </body>
+</html>
