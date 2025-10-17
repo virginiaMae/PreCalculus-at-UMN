@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Searchable Math Problems</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Math Problem Catalog</h1>
+    </header>
+
+    <div id="problems-list">
+        <input type="text" class="search" placeholder="Search by Topic, Title, or Tag...">
+        
+        <ul class="list">
+            <li>
+                <h2 class="title">The Quadratic Equation</h2>
+                <p class="description">Solve for $x$ given $ax^2 + bx + c = 0$.</p>
+                <div class="tags">
+                    <span class="topic">#Algebra</span>
+                    <span class="difficulty">#Easy</span>
+                </div>
+                <a href="#">View Solution</a>
+            </li>
+            
+            <li>
+                <h2 class="title">The Definite Integral</h2>
+                <p class="description">Calculate the area under $f(x) = \sin(x)$ from $0$ to $\pi$.</p>
+                <div class="tags">
+                    <span class="topic">#Calculus</span>
+                    <span class="difficulty">#Medium</span>
+                </div>
+                <a href="#">View Solution</a>
+            </li>
+            </ul>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
+
+    <script src="js/list.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>
